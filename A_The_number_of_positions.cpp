@@ -50,10 +50,17 @@ int main()
 #ifndef himanshu070
     freopen("debug.txt", "w", stderr);
 #endif
-    fastio();
-    ll a, b, c;
-    cin >> a >> b >> c;
-    ll ans = min(a-b, c+1);
-    cout << ans;
-    return 0;
+   
+   string s[5];
+   for(int i=0; i<5; i++)
+   {
+       cin >> s[i];
+   }
+   for (int i = 0; i < 5; i++)
+   {
+       cout << s[i] << endl;
+       
+   }
+
+   cout << s->size();
 }
